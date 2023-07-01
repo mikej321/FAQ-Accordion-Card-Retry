@@ -58,6 +58,11 @@ img {
 
 /* main container that holds the entire project */
 
+.overflow-container {
+    margin-inline: 2rem;
+    margin-top: 12rem;
+}
+
 .main-container {
     background: white;
     padding: 0 3rem 5rem;
@@ -219,6 +224,7 @@ the accordion panel has been clicked or not */
 
     .overflow-container {
         position: relative;
+        margin: 0;
     }
 
     .img-box-desktop {
