@@ -180,8 +180,8 @@ the accordion panel has been clicked or not */
     }
 
     .main-container {
-        max-width: 1200px;
-        grid-template-columns: repeat(2, minmax(350px, 580px));
+        max-width: 1000px;
+        grid-template-columns: repeat(2, minmax(350px, 500px));
         grid-template-areas: "picture accordion";
         padding: 10rem 3rem 3rem;
         position: relative;
@@ -201,7 +201,7 @@ the accordion panel has been clicked or not */
     }
 
     .faq-main-img {
-        right: 13rem;
+        right: 11rem;
         bottom: 5rem;
     }
 
@@ -225,8 +225,8 @@ the accordion panel has been clicked or not */
         display: block;
         position: absolute;
         width: 200px;
-        left: -10rem;
-        top: 23rem;
+        left: -11rem;
+        top: 17rem;
         z-index: 3;
         
     }
